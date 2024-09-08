@@ -1,0 +1,298 @@
+### you may added this to help macrodroid run in the background
+pm grant com.arlosoft.macrodroid android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+pm grant com.arlosoft.macrodroid android.permission.BIND_ACCESSIBILITY_SERVICE
+
+
+pm grant com.arlosoft.macrodroid android.permission.DUMP
+pm grant com.arlosoft.macrodroid android.permission.SET_MEDIA_KEY_LISTENER
+pm grant com.arlosoft.macrodroid android.permission.READ_LOGS
+pm grant com.arlosoft.macrodroid android.permission.SET_VOLUME_KEY_LONG_PRESS_LISTENER
+pm grant com.arlosoft.macrodroid android.permission.WRITE_SECURE_SETTINGS
+pm grant com.arlosoft.macrodroid android.permission.CHANGE_CONFIGURATION
+pm grant com.arlosoft.macrodroid android.permission.SYSTEM_ALERT_WINDOW
+pm grant com.arlosoft.macrodroid android.permission.BIND_DEVICE_ADMIN
+pm grant com.arlosoft.macrodroid android.permission.PACKAGE_USAGE_STATS
+pm grant com.arlosoft.macrodroid android.permission.ANSWER_PHONE_CALLS 
+pm grant com.arlosoft.macrodroid android.permission.CALL_PHONE
+
+
+
+pm grant com.arlosoft.macrodroid android.permission.ACCESS_AMBIENT_LIGHT_STATS
+pm grant com.arlosoft.macrodroid android.permission.ACCESS_BLOBS_ACROSS_USERS
+pm grant com.arlosoft.macrodroid android.permission.ACCESS_BROADCAST_RESPONSE_STATS
+pm grant com.arlosoft.macrodroid android.permission.ACCESS_NOTIFICATIONS
+pm grant com.arlosoft.macrodroid android.permission.ACCESS_SMARTSPACE
+pm grant com.arlosoft.macrodroid android.permission.BATTERY_STATS
+pm grant com.arlosoft.macrodroid android.permission.BRIGHTNESS_SLIDER_USAGE
+pm grant com.arlosoft.macrodroid android.permission.CAPTURE_CONSENTLESS_BUGREPORT_ON_USERDEBUG_BUILD
+pm grant com.arlosoft.macrodroid android.permission.CONFIGURE_DISPLAY_BRIGHTNESS
+pm grant com.arlosoft.macrodroid android.permission.CONTROL_UI_TRACING
+pm grant com.arlosoft.macrodroid android.permission.FOREGROUND_SERVICE_SPECIAL_USE
+pm grant com.arlosoft.macrodroid android.permission.GET_APP_OPS_STATS
+pm grant com.arlosoft.macrodroid android.permission.GET_PROCESS_STATE_AND_OOM_SCORE
+pm grant com.arlosoft.macrodroid android.permission.INSTANT_APP_FOREGROUND_SERVICE
+pm grant com.arlosoft.macrodroid android.permission.INTERACT_ACROSS_PROFILES
+pm grant com.arlosoft.macrodroid android.permission.INTERACT_ACROSS_USERS
+pm grant com.arlosoft.macrodroid android.permission.LOADER_USAGE_STATS
+pm grant com.arlosoft.macrodroid android.permission.MANAGE_EXTERNAL_STORAGE
+pm grant com.arlosoft.macrodroid android.permission.MANAGE_IPSEC_TUNNELS
+pm grant com.arlosoft.macrodroid android.permission.MANAGE_MEDIA
+pm grant com.arlosoft.macrodroid android.permission.MANAGE_ONGOING_CALLS
+pm grant com.arlosoft.macrodroid android.permission.MEDIA_ROUTING_CONTROL
+pm grant com.arlosoft.macrodroid android.permission.MODIFY_QUIET_MODE
+pm grant com.arlosoft.macrodroid android.permission.READ_DROPBOX_DATA
+pm grant com.arlosoft.macrodroid android.permission.RECEIVE_SANDBOXED_DETECTION_TRAINING_DATA
+pm grant com.arlosoft.macrodroid android.permission.RECEIVE_SANDBOX_TRIGGER_AUDIO
+pm grant com.arlosoft.macrodroid android.permission.REQUEST_INSTALL_PACKAGES
+pm grant com.arlosoft.macrodroid android.permission.RUN_BACKUP_JOBS
+pm grant com.arlosoft.macrodroid android.permission.SCHEDULE_EXACT_ALARM
+pm grant com.arlosoft.macrodroid android.permission.SET_ALWAYS_FINISH
+pm grant com.arlosoft.macrodroid android.permission.SET_ANIMATION_SCALE
+pm grant com.arlosoft.macrodroid android.permission.SET_DEBUG_APP
+pm grant com.arlosoft.macrodroid android.permission.SET_PROCESS_LIMIT
+pm grant com.arlosoft.macrodroid android.permission.SIGNAL_PERSISTENT_PROCESSES
+pm grant com.arlosoft.macrodroid android.permission.SMS_FINANCIAL_TRANSACTIONS
+pm grant com.arlosoft.macrodroid android.permission.TURN_SCREEN_ON
+pm grant com.arlosoft.macrodroid android.permission.USE_FULL_SCREEN_INTENT
+pm grant com.arlosoft.macrodroid android.permission.USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+pm grant com.arlosoft.macrodroid android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS
+pm grant com.arlosoft.macrodroid android.permission.WRITE_SETTINGS
+
+
+
+
+
+
+
+
+cmd appops set com.arlosoft.macrodroid ACCESS_AMBIENT_LIGHT_STATS allow
+cmd appops set com.arlosoft.macrodroid ACCESS_BLOBS_ACROSS_USERS allow
+cmd appops set com.arlosoft.macrodroid ACCESS_BROADCAST_RESPONSE_STATS allow
+cmd appops set com.arlosoft.macrodroid ACCESS_NOTIFICATIONS allow
+cmd appops set com.arlosoft.macrodroid ACCESS_SMARTSPACE allow
+cmd appops set com.arlosoft.macrodroid BATTERY_STATS allow
+cmd appops set com.arlosoft.macrodroid BRIGHTNESS_SLIDER_USAGE allow
+cmd appops set com.arlosoft.macrodroid CAPTURE_CONSENTLESS_BUGREPORT_ON_USERDEBUG_BUILD allow
+cmd appops set com.arlosoft.macrodroid CHANGE_CONFIGURATION allow
+cmd appops set com.arlosoft.macrodroid CONFIGURE_DISPLAY_BRIGHTNESS allow
+cmd appops set com.arlosoft.macrodroid CONTROL_UI_TRACING allow
+cmd appops set com.arlosoft.macrodroid DUMP allow
+cmd appops set com.arlosoft.macrodroid FOREGROUND_SERVICE_SPECIAL_USE allow
+cmd appops set com.arlosoft.macrodroid GET_APP_OPS_STATS allow
+cmd appops set com.arlosoft.macrodroid GET_PROCESS_STATE_AND_OOM_SCORE allow
+cmd appops set com.arlosoft.macrodroid INSTANT_APP_FOREGROUND_SERVICE allow
+cmd appops set com.arlosoft.macrodroid INTERACT_ACROSS_PROFILES allow
+cmd appops set com.arlosoft.macrodroid INTERACT_ACROSS_USERS allow
+cmd appops set com.arlosoft.macrodroid LOADER_USAGE_STATS allow
+cmd appops set com.arlosoft.macrodroid MANAGE_EXTERNAL_STORAGE allow
+cmd appops set com.arlosoft.macrodroid MANAGE_IPSEC_TUNNELS allow
+cmd appops set com.arlosoft.macrodroid MANAGE_MEDIA allow
+cmd appops set com.arlosoft.macrodroid MANAGE_ONGOING_CALLS allow
+cmd appops set com.arlosoft.macrodroid MEDIA_ROUTING_CONTROL allow
+cmd appops set com.arlosoft.macrodroid MODIFY_QUIET_MODE allow
+cmd appops set com.arlosoft.macrodroid PACKAGE_USAGE_STATS allow
+cmd appops set com.arlosoft.macrodroid READ_DROPBOX_DATA allow
+cmd appops set com.arlosoft.macrodroid READ_LOGS allow
+cmd appops set com.arlosoft.macrodroid RECEIVE_SANDBOXED_DETECTION_TRAINING_DATA allow
+cmd appops set com.arlosoft.macrodroid RECEIVE_SANDBOX_TRIGGER_AUDIO allow
+cmd appops set com.arlosoft.macrodroid REQUEST_INSTALL_PACKAGES allow
+cmd appops set com.arlosoft.macrodroid RUN_BACKUP_JOBS allow
+cmd appops set com.arlosoft.macrodroid SCHEDULE_EXACT_ALARM allow
+cmd appops set com.arlosoft.macrodroid SET_ALWAYS_FINISH allow
+cmd appops set com.arlosoft.macrodroid SET_ANIMATION_SCALE allow
+cmd appops set com.arlosoft.macrodroid SET_DEBUG_APP allow
+cmd appops set com.arlosoft.macrodroid SET_MEDIA_KEY_LISTENER allow
+cmd appops set com.arlosoft.macrodroid SET_PROCESS_LIMIT allow
+cmd appops set com.arlosoft.macrodroid SET_VOLUME_KEY_LONG_PRESS_LISTENER allow
+cmd appops set com.arlosoft.macrodroid SIGNAL_PERSISTENT_PROCESSES allow
+cmd appops set com.arlosoft.macrodroid SMS_FINANCIAL_TRANSACTIONS allow
+cmd appops set com.arlosoft.macrodroid SYSTEM_ALERT_WINDOW allow
+cmd appops set com.arlosoft.macrodroid TURN_SCREEN_ON allow
+cmd appops set com.arlosoft.macrodroid USE_FULL_SCREEN_INTENT allow
+cmd appops set com.arlosoft.macrodroid USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER allow
+cmd appops set com.arlosoft.macrodroid WRITE_EMBEDDED_SUBSCRIPTIONS allow
+cmd appops set com.arlosoft.macrodroid WRITE_SECURE_SETTINGS allow
+cmd appops set com.arlosoft.macrodroid WRITE_SETTINGS allow
+
+
+
+
+cmd appops set com.arlosoft.macrodroid COARSE_LOCATION allow
+cmd appops set com.arlosoft.macrodroid FINE_LOCATION allow
+cmd appops set com.arlosoft.macrodroid GPS allow
+cmd appops set com.arlosoft.macrodroid VIBRATE allow
+cmd appops set com.arlosoft.macrodroid READ_CONTACTS allow
+cmd appops set com.arlosoft.macrodroid WRITE_CONTACTS allow
+cmd appops set com.arlosoft.macrodroid READ_CALL_LOG allow
+cmd appops set com.arlosoft.macrodroid WRITE_CALL_LOG allow
+cmd appops set com.arlosoft.macrodroid READ_CALENDAR allow
+cmd appops set com.arlosoft.macrodroid WRITE_CALENDAR allow
+cmd appops set com.arlosoft.macrodroid WIFI_SCAN allow
+cmd appops set com.arlosoft.macrodroid POST_NOTIFICATION allow
+cmd appops set com.arlosoft.macrodroid NEIGHBORING_CELLS allow
+cmd appops set com.arlosoft.macrodroid CALL_PHONE allow
+cmd appops set com.arlosoft.macrodroid READ_SMS allow
+cmd appops set com.arlosoft.macrodroid WRITE_SMS allow
+cmd appops set com.arlosoft.macrodroid RECEIVE_SMS allow
+cmd appops set com.arlosoft.macrodroid RECEIVE_EMERGECY_SMS allow
+cmd appops set com.arlosoft.macrodroid RECEIVE_MMS allow
+cmd appops set com.arlosoft.macrodroid RECEIVE_WAP_PUSH allow
+cmd appops set com.arlosoft.macrodroid SEND_SMS allow
+cmd appops set com.arlosoft.macrodroid READ_ICC_SMS allow
+cmd appops set com.arlosoft.macrodroid WRITE_ICC_SMS allow
+cmd appops set com.arlosoft.macrodroid CAMERA allow
+cmd appops set com.arlosoft.macrodroid RECORD_AUDIO allow
+cmd appops set com.arlosoft.macrodroid PLAY_AUDIO allow
+cmd appops set com.arlosoft.macrodroid READ_CLIPBOARD allow
+cmd appops set com.arlosoft.macrodroid WRITE_CLIPBOARD allow
+cmd appops set com.arlosoft.macrodroid TAKE_MEDIA_BUTTONS allow
+cmd appops set com.arlosoft.macrodroid TAKE_AUDIO_FOCUS allow
+cmd appops set com.arlosoft.macrodroid AUDIO_MASTER_VOLUME allow
+cmd appops set com.arlosoft.macrodroid AUDIO_VOICE_VOLUME allow
+cmd appops set com.arlosoft.macrodroid AUDIO_RING_VOLUME allow
+cmd appops set com.arlosoft.macrodroid AUDIO_MEDIA_VOLUME allow
+cmd appops set com.arlosoft.macrodroid AUDIO_ALARM_VOLUME allow
+cmd appops set com.arlosoft.macrodroid AUDIO_NOTIFICATION_VOLUME allow
+cmd appops set com.arlosoft.macrodroid AUDIO_BLUETOOTH_VOLUME allow
+cmd appops set com.arlosoft.macrodroid WAKE_LOCK allow
+cmd appops set com.arlosoft.macrodroid MONITOR_LOCATION allow
+cmd appops set com.arlosoft.macrodroid MONITOR_HIGH_POWER_LOCATION allow
+cmd appops set com.arlosoft.macrodroid GET_USAGE_STATS allow
+cmd appops set com.arlosoft.macrodroid MUTE_MICROPHONE allow
+cmd appops set com.arlosoft.macrodroid TOAST_WINDOW allow
+cmd appops set com.arlosoft.macrodroid PROJECT_MEDIA allow
+cmd appops set com.arlosoft.macrodroid ACTIVATE_VPN allow
+cmd appops set com.arlosoft.macrodroid WRITE_WALLPAPER allow
+cmd appops set com.arlosoft.macrodroid ASSIST_STRUCTURE allow
+cmd appops set com.arlosoft.macrodroid ASSIST_SCREENSHOT allow
+cmd appops set com.arlosoft.macrodroid READ_PHONE_STATE allow
+cmd appops set com.arlosoft.macrodroid ADD_VOICEMAIL allow
+cmd appops set com.arlosoft.macrodroid USE_SIP allow
+cmd appops set com.arlosoft.macrodroid PROCESS_OUTGOING_CALLS allow
+cmd appops set com.arlosoft.macrodroid USE_FINGERPRINT allow
+cmd appops set com.arlosoft.macrodroid BODY_SENSORS allow
+cmd appops set com.arlosoft.macrodroid READ_CELL_BROADCASTS allow
+cmd appops set com.arlosoft.macrodroid MOCK_LOCATION allow
+cmd appops set com.arlosoft.macrodroid READ_EXTERNAL_STORAGE allow
+cmd appops set com.arlosoft.macrodroid WRITE_EXTERNAL_STORAGE allow
+cmd appops set com.arlosoft.macrodroid GET_ACCOUNTS allow
+cmd appops set com.arlosoft.macrodroid RUN_IN_BACKGROUND allow
+cmd appops set com.arlosoft.macrodroid AUDIO_ACCESSIBILITY_VOLUME allow
+cmd appops set com.arlosoft.macrodroid READ_PHONE_NUMBERS allow
+cmd appops set com.arlosoft.macrodroid PICTURE_IN_PICTURE allow
+cmd appops set com.arlosoft.macrodroid INSTANT_APP_START_FOREGROUND allow
+cmd appops set com.arlosoft.macrodroid ANSWER_PHONE_CALLS allow
+cmd appops set com.arlosoft.macrodroid RUN_ANY_IN_BACKGROUND allow
+cmd appops set com.arlosoft.macrodroid CHANGE_WIFI_STATE allow
+cmd appops set com.arlosoft.macrodroid REQUEST_DELETE_PACKAGES allow
+cmd appops set com.arlosoft.macrodroid BIND_ACCESSIBILITY_SERVICE allow
+cmd appops set com.arlosoft.macrodroid ACCEPT_HANDOVER allow
+cmd appops set com.arlosoft.macrodroid START_FOREGROUND allow
+cmd appops set com.arlosoft.macrodroid BLUETOOTH_SCAN allow
+cmd appops set com.arlosoft.macrodroid BLUETOOTH_CONNECT allow
+cmd appops set com.arlosoft.macrodroid BLUETOOTH_ADVERTISE allow
+cmd appops set com.arlosoft.macrodroid USE_BIOMETRIC allow
+cmd appops set com.arlosoft.macrodroid ACTIVITY_RECOGNITION allow
+cmd appops set com.arlosoft.macrodroid READ_MEDIA_AUDIO allow
+cmd appops set com.arlosoft.macrodroid WRITE_MEDIA_AUDIO allow
+cmd appops set com.arlosoft.macrodroid READ_MEDIA_VIDEO allow
+cmd appops set com.arlosoft.macrodroid WRITE_MEDIA_VIDEO allow
+cmd appops set com.arlosoft.macrodroid READ_MEDIA_IMAGES allow
+cmd appops set com.arlosoft.macrodroid WRITE_MEDIA_IMAGES allow
+cmd appops set com.arlosoft.macrodroid LEGACY_STORAGE allow
+cmd appops set com.arlosoft.macrodroid ACCESS_ACCESSIBILITY allow
+cmd appops set com.arlosoft.macrodroid READ_DEVICE_IDENTIFIERS allow
+cmd appops set com.arlosoft.macrodroid ACCESS_MEDIA_LOCATION allow
+cmd appops set com.arlosoft.macrodroid QUERY_ALL_PACKAGES allow
+cmd appops set com.arlosoft.macrodroid ACTIVATE_PLATFORM_VPN allow
+cmd appops set com.arlosoft.macrodroid AUTO_REVOKE_PERMISSIONS_IF_UNUSED allow
+cmd appops set com.arlosoft.macrodroid AUTO_REVOKE_MANAGED_BY_INSTALLER allow
+cmd appops set com.arlosoft.macrodroid NO_ISOLATED_STORAGE allow
+cmd appops set com.arlosoft.macrodroid PHONE_CALL_MICROPHONE allow
+cmd appops set com.arlosoft.macrodroid PHONE_CALL_CAMERA allow
+cmd appops set com.arlosoft.macrodroid RECORD_AUDIO_HOTWORD allow
+cmd appops set com.arlosoft.macrodroid MANAGE_CREDENTIALS allow
+cmd appops set com.arlosoft.macrodroid RECORD_AUDIO_OUTPUT allow
+cmd appops set com.arlosoft.macrodroid FINE_LOCATION_SOURCE allow
+cmd appops set com.arlosoft.macrodroid COARSE_LOCATION_SOURCE allow
+cmd appops set com.arlosoft.macrodroid UWB_RANGING allow
+cmd appops set com.arlosoft.macrodroid NEARBY_WIFI_DEVICES allow
+cmd appops set com.arlosoft.macrodroid ACTIVITY_RECOGNITION_SOURCE allow
+cmd appops set com.arlosoft.macrodroid RECORD_INCOMING_PHONE_AUDIO allow
+cmd appops set com.arlosoft.macrodroid ESTABLISH_VPN_SERVICE allow
+cmd appops set com.arlosoft.macrodroid ESTABLISH_VPN_MANAGER allow
+cmd appops set com.arlosoft.macrodroid ACCESS_RESTRICTED_SETTINGS allow
+cmd appops set com.arlosoft.macrodroid RECEIVE_AMBIENT_TRIGGER_AUDIO allow
+cmd appops set com.arlosoft.macrodroid RECEIVE_EXPLICIT_USER_INTERACTION_AUDIO allow
+cmd appops set com.arlosoft.macrodroid RUN_USER_INITIATED_JOBS allow
+cmd appops set com.arlosoft.macrodroid READ_MEDIA_VISUAL_USER_SELECTED allow
+cmd appops set com.arlosoft.macrodroid SYSTEM_EXEMPT_FROM_SUSPENSION allow
+cmd appops set com.arlosoft.macrodroid SYSTEM_EXEMPT_FROM_DISMISSIBLE_NOTIFICATIONS allow
+cmd appops set com.arlosoft.macrodroid READ_WRITE_HEALTH_DATA allow
+cmd appops set com.arlosoft.macrodroid SYSTEM_EXEMPT_FROM_POWER_RESTRICTIONS allow
+cmd appops set com.arlosoft.macrodroid SYSTEM_EXEMPT_FROM_HIBERNATION allow
+cmd appops set com.arlosoft.macrodroid SYSTEM_EXEMPT_FROM_ACTIVITY_BG_START_RESTRICTION allow
+cmd appops set com.arlosoft.macrodroid CAMERA_SANDBOXED allow
+cmd appops set com.arlosoft.macrodroid RECORD_AUDIO_SANDBOXED allow
+cmd appops set com.arlosoft.macrodroid CREATE_ACCESSIBILITY_OVERLAY allow
+cmd appops set com.arlosoft.macrodroid ENABLE_MOBILE_DATA_BY_USER allow
+cmd appops set com.arlosoft.macrodroid RESERVED_FOR_TESTING allow
+cmd appops set com.arlosoft.macrodroid RAPID_CLEAR_NOTIFICATIONS_BY_LISTENER allow
+cmd appops set com.arlosoft.macrodroid READ_SYSTEM_GRAMMATICAL_GENDER allow
+cmd appops set com.arlosoft.macrodroid ARCHIVE_ICON_OVERLAY allow
+cmd appops set com.arlosoft.macrodroid UNARCHIVAL_CONFIRMATION allow
+cmd appops set com.arlosoft.macrodroid EMERGENCY_LOCATION allow
+
+
+
+
+
+
+adb shell dpm set-device-owner com.balda.securetask/.receivers.AdminReceiver
+
+adb shell dpm set-device-owner com.arlosoft.macrodroid/.triggers.receivers.MacroDroidDeviceAdminReceiver
+
+
+dpm set-active-admin --user current com.arlosoft.macrodroid/.triggers.receivers.MacroDroidDeviceAdminReceiver
+
+cmd notification allow_listener com.arlosoft.macrodroid/.triggers.services.NotificationServiceOreo
+
+adb shell cmd notification disallow_listener com.arlosoft.macrodroid/.triggers.services.NotificationServiceOreo
+
+
+
+
+
+
+cmd appops set com.arlosoft.macrodroid RUN_IN_BACKGROUND allow
+cmd appops set com.arlosoft.macrodroid RUN_ANY_IN_BACKGROUND allow
+cmd appops set com.arlosoft.macrodroid START_FOREGROUND allow
+cmd appops set com.arlosoft.macrodroid WAKE_LOCK allow
+dumpsys deviceidle whitelist +com.arlosoft.macrodroid
+
+
+
+
+
+
+appops set com.arlosoft.macrodroid BOOT_COMPLETED allow
+appops set com.arlosoft.macrodroid android:boot_completed allow
+pm grant com.arlosoft.macrodroid android.permission.RECEIVE_BOOT_COMPLETED
+pm grant com.arlosoft.macrodroid android.permission.DUMP
+
+
+
+
+cmd statusbar add-tile com.arlosoft.macrodroid/.triggers.services.quicksettings.MacroDroidOnOffTileService
+
+cmd statusbar click-tile com.arlosoft.macrodroid/.triggers.services.quicksettings.MacroDroidOnOffTileService
+
+com.arlosoft.macrodroid/.triggers.services.quicksettings.MacroDroidOnOffTileService
+
+
+
+settings put secure enabled_accessibility_services com.arlosoft.macrodroid/.triggers.services.MacroDroidAccessibilityService:com.arlosoft.macrodroid/.action.services.UIInteractionAccessibilityService:com.arlosoft.macrodroid/.triggers.services.FingerprintAccessibilityService:com.arlosoft.macrodroid/.triggers.services.MacroDroidAccessibilityServiceJellyBean:com.arlosoft.macrodroid/.triggers.services.VolumeButtonAccessibilityService
+
+
+
+
