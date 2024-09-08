@@ -1,0 +1,10 @@
+https://cs.android.com/android/platform/superproject/main/+/main:frameworks/base/core/res/AndroidManifest.xml
+
+regex steps
+1-\n.*\n.*\n.*\n.*android:protectionLevel=".*appop.*
+2-(?<=permission android:name=").*?(?=")
+3-\n.*\n.*android:protectionLevel=".*development.*
+4-(?<=permission android:name=").*?(?=")
+5- remove duplicates
+6- https://cs.android.com/android/platform/superproject/main/+/main:frameworks/base/core/java/android/app/AppOpsManager.java
+7-(?<=    public static final int OP_).*?(?= )
