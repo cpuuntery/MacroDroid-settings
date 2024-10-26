@@ -242,6 +242,7 @@ cmd appops set com.arlosoft.macrodroid READ_SYSTEM_GRAMMATICAL_GENDER allow
 cmd appops set com.arlosoft.macrodroid ARCHIVE_ICON_OVERLAY allow
 cmd appops set com.arlosoft.macrodroid UNARCHIVAL_CONFIRMATION allow
 cmd appops set com.arlosoft.macrodroid EMERGENCY_LOCATION allow
+cmd appops set com.arlosoft.macrodroid RECEIVE_SENSITIVE_NOTIFICATIONS allow
 
 
 
